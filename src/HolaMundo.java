@@ -5,16 +5,33 @@ public class HolaMundo {
         System.out.println("saludar.toUpperCase() = " + saludar.toUpperCase());
 
         int numero = 10;
-        
+
         boolean valor = true;
         int numero2 = 5;
 
-        if(valor) {
+        if (valor) {
             System.out.println("numero = " + numero);
-            numero2= 15;
+            numero2 = 15;
         }
         System.out.println("numero2 = " + numero2);
 
         var numero3 = "20";
+
+        String nombre;
+
+        nombre = "Andrés";
+
+        if (numero > 10) {
+            nombre = "Juan";
+        }
+
+        System.out.println("nombre = " + nombre);
+
+        //Comentar 2 formas
+        //System.out.println("nombre = " + nombre);
+        /*  System.out.println("nombre = " + nombre);  */
+
+        int edadPersona = 5;
+
     }
 }

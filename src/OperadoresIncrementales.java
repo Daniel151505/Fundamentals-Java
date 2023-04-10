@@ -15,7 +15,7 @@ public class OperadoresIncrementales {
         System.out.println("i = " + i);
         System.out.println("j = " + j);
 
-        // Pre decremento, Decrementa a en uno, luego devuelve a
+        // Pre decremento --a, Decrementa a en uno, luego devuelve a
 
         i = 3;
         j = --i;
@@ -23,7 +23,7 @@ public class OperadoresIncrementales {
         System.out.println("i = " + i);
         System.out.println("j = " + j);
 
-        // Post decremento, Devuelve a, luego decrementa a en uno
+        // Post decremento a--, Devuelve a, luego decrementa a en uno
         i = 4;
         j = i--;
         System.out.println("i = " + i);

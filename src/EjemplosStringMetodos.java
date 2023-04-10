@@ -30,10 +30,31 @@ public class EjemplosStringMetodos {
         System.out.println("nombre.charAt(2) = " + nombre.charAt(2));
         System.out.println("nombre.charAt(nombre.length()-1) = " + nombre.charAt(nombre.length()-1));
 
-        // Trea los caracteres según se especifique(desde , hasta)
+        // Trae los caracteres según se especifique(desde , hasta)
         System.out.println("nombre.substring(1) = " + nombre.substring(1));
         System.out.println("nombre.substring(1, 4) = " + nombre.substring(1, 4));
         System.out.println("nombre.substring(nombre.length()-2) = " + nombre.substring(nombre.length()-2));
+
+        String trabalenguas = "trabalenguas";
+
+        // Cambia o reemplaza el carácter replace("carácter qué deseo cambiar", "carácter nuevo")
+        System.out.println("trabalenguas = " + trabalenguas.replace("a", "."));
+
+        // Trae la posición de la primera aparición del primer carácter que se indica, retorna un integer.
+        System.out.println("trabalenguas.indexOf('a') = " + trabalenguas.indexOf('a'));
+
+        // Trae la posición de la última aparición del carácter que se indica, retorna un integer.
+        System.out.println("trabalenguas.lastIndexOf('e') = " + trabalenguas.lastIndexOf('e'));
+
+        // compara si contiene los siguientes caracteres, retorna un booleano
+        System.out.println("trabalenguas.contains('lenguas') = " + trabalenguas.contains("lenguas"));
+
+        // compara si termina con los siguientes caracteres, retorna un booleano
+        System.out.println("trabalenguas.contains('guas') = " + trabalenguas.endsWith("guas"));
+
+        // retorna el texto sin espacios
+        System.out.println("  trabalenguas  ");
+        System.out.println("  trabalenguas  ".trim());
 
     }
 }

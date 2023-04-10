@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class OperadoAritmetico {
+public class OperadoresAritmeticos {
     public static void main(String[] args) {
 
         // suma
